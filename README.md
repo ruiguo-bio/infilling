@@ -4,7 +4,7 @@ The file infilling.amxd is the ableton live plugin. Currently it needs a server 
 
 ## Basic function
 
-This plugin works with three midi tracks, including melody, bass and harmony. The midi track should be named as melody, bass and harmony for the first three tracks in ableton. The plugin should be included in the melody track.
+This plugin works with up to 5 track for the pop genre and 4 track for the classical genre. The midi tracks in ableton should be names from track_0 to track_n. Each track should have only one clip.
 
 This infilling tool works for at most 16 bars, and it can support more than 16 bars if a different starting bar than 1 is selected. 
 
@@ -23,4 +23,4 @@ The infilling region can be a track, e.g. melody in a bar, e.g. bar 3. It can be
 ## demo
 
 A demo is 
-https://drive.google.com/file/d/156-ss5piyj2TZBOi_6aplxKayZ-qvjSf/view?usp=sharing
+https://universityofsussex.zoom.us/rec/share/VGXt8HsOvA3Ry1q3VnFTjmH8rbn_NgWzN9G3amjKCIBM78NUf00HUi3I_EIfsFsT.-HzJH642AVj-Ytsw
