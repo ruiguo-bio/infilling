@@ -1,26 +1,51 @@
-# Pop music infilling ableton live plugin
 
-The file infilling.amxd is the ableton live plugin. Currently it needs a server backend to run the program. If you would like to test this, please send me email ruiguo0225@gmail.com to get server address.
 
-## Basic function
+# Pop Music Infilling Plugin for Ableton Live
 
-This plugin works with up to 5 track for the pop genre and 4 track for the classical genre. The midi tracks in ableton should be names from track_0 to track_n. Each track should have only one clip.
+`infilling.amxd` is a Max for Live plugin designed for pop music infilling within Ableton Live. It requires a backend server to function. You can use the following Colab notebook to set up the server (preferably with GPU support):
 
-This infilling tool works for at most 16 bars, and it can support more than 16 bars if a different starting bar than 1 is selected. 
+👉 [Colab Notebook – Server Setup](https://colab.research.google.com/drive/17dKOKgoCpq5lA6JIPNLu7mnFWJpT1R1W)
 
-## control parameters
+---
 
-This tool can control the following parameters:
+## 🎹 Basic Functionality
 
-- bar level tonal tension
-- track level texture
-- bar level texture
+This plugin supports infilling for up to **3 tracks** in a pop song project. Please follow these setup guidelines:
 
-The texture includes density, occupation and polyphony. Density is the number of notes, occupation of the total duration of the notes, and polyphony is the the number of one notes or more than two notes in the track. 
+- MIDI track names in Ableton Live should follow the format: `track_0`, `track_1`, ..., `track_n`.
+- Each track should contain **only one MIDI clip**.
+- The plugin supports up to **16 bars** per session. To go beyond 16 bars, set the **starting bar** to a number higher than 1.
 
-The infilling region can be a track, e.g. melody in a bar, e.g. bar 3. It can be several bars, or a whole track.
+---
 
-## demo
+## 🎛️ Control Parameters
 
-A demo is 
-https://drive.google.com/file/d/1kYsfmIzJtR4sXZASMYWafPpVOK0HpxJW/view?usp=sharing
+You can customize the infilling behavior using the following parameters:
+
+- **Bar-level tonal tension**
+- **Track-level texture**
+- **Bar-level texture**
+
+Texture is defined by three components:
+- **Density** – Number of notes per bar.
+- **Occupation** – Total duration of notes within a bar.
+- **Polyphony** – Number of notes played simultaneously.
+
+---
+
+## ✨ Infilling Regions
+
+You can specify the infilling region at various granularities:
+
+- A specific **track** (e.g., only melody)
+- A specific **bar** (e.g., bar 3)
+- A range of **bars**
+- An entire **track**
+
+---
+
+## 📽️ Demo
+
+Watch a demo here:  
+[Google Drive – Demo Video](https://drive.google.com/file/d/1kYsfmIzJtR4sXZASMYWafPpVOK0HpxJW/view?usp=sharing)
+
