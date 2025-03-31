@@ -6,7 +6,8 @@
 
 👉 [Colab Notebook – Server Setup](https://colab.research.google.com/drive/17dKOKgoCpq5lA6JIPNLu7mnFWJpT1R1W)
 
-You can download this repo or download this zip file directly [zip file](https://drive.google.com/file/d/1XvmT14jS9N1O6VsqsYMoqAerWmdhJ8jJ/view)
+You can download this repo or download the plugin directly as a ZIP file:  
+📦 [Download ZIP](https://drive.google.com/file/d/1XvmT14jS9N1O6VsqsYMoqAerWmdhJ8jJ/view)
 
 ---
 
@@ -48,6 +49,6 @@ You can specify the infilling region at various granularities:
 
 ## 📽️ Demo
 
-Watch a demo here:  
-[Google Drive – Demo Video](https://drive.google.com/file/d/1kYsfmIzJtR4sXZASMYWafPpVOK0HpxJW/view?usp=sharing)
-
+### ▶️ YouTube Video Demo  
+Watch how to install, set up, and use the plugin step by step:  
+📺 [YouTube – Pop Music Infilling Plugin Demo](https://youtu.be/zB1fmFAS8Kk)
