@@ -51,4 +51,4 @@ You can specify the infilling region at various granularities:
 
 ### ▶️ YouTube Video Demo  
 Watch how to install, set up, and use the plugin step by step:  
-📺 [YouTube – Pop Music Infilling Plugin Demo](https://youtu.be/zB1fmFAS8Kk)
+📺 [YouTube – Pop Music Infilling Plugin Demo](https://youtu.be/n7aZmGCoJkI)
