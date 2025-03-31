@@ -6,6 +6,8 @@
 
 👉 [Colab Notebook – Server Setup](https://colab.research.google.com/drive/17dKOKgoCpq5lA6JIPNLu7mnFWJpT1R1W)
 
+You can download this repo or download this zip file directly [zip file](https://drive.google.com/file/d/1XvmT14jS9N1O6VsqsYMoqAerWmdhJ8jJ/view)
+
 ---
 
 ## 🎹 Basic Functionality
